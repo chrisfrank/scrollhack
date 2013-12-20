@@ -6,6 +6,7 @@ I suspect Apple will fix this problem someday. Until then, include this script t
 
 The hack watches scrollable elements, and adjusts their scroll position by one pixel when you touch them. This tricks iOS into thinking you're scrolling from somewhere other than the top or bottom, so <code>touchmove</code> events never propogate all the way to the document <code>body</code>.
 
+![ScrollHack Illustrated](//github.com/chrisfrank/scrollhack/scrollhack.jpg)
 Installation
 ------------
 Include scrollhack.js anywhere in your document.
@@ -17,5 +18,5 @@ None.
 
 FAQ
 ---
-### Q: Will it work with elements insterted into the DOM after the script is initialized?
-A: Yep.
+### Will it work with elements insterted into the DOM after the script is initialized?
+Yep.
